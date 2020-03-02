@@ -33,35 +33,35 @@
     background-color: #F1F3F4;
 }
 
-#first{
-    position:relative;
-    border-width:2px;
-    width:20%;
-    height: 100%;
-    background-color: peachpuff;
-    float: left;
-    overflow-y: scroll;
-    overflow-x: hidden;
-}
-
-#second{
-    position: relative;
-    border-width:2px;
-    width: 80%;
-    height: 100%;
-    left:0px;
-    background-color: red;
-    float: left;
-    overflow: scroll;
-    overflow-x: hidden;
-}
-
 #searchIcon{
     color: gray;
     position: absolute;
     top: 12.5px;
     background: transparent;
     border: none;
+}
+
+#first{
+    position: absolute;
+    border-width:2px;
+    width:15%;
+    top: 8%;
+    bottom: 0;
+    background-color: peachpuff;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#second{
+    position: absolute;
+    border-width:2px;
+    width: 85%;
+    top: 8%;
+    bottom: 0;
+    left: 15%;
+    background-color: red;
+    overflow: auto;
+    overflow-x: hidden;
 }
 
 .top{
@@ -87,6 +87,7 @@
     box-shadow: 0 1px rgba(12, 13, 14, 0.1),
     0 1px 6px rgba(60,65, 70, 0.1);
     margin: none;
+    float: left;
 }
 
 
@@ -104,6 +105,11 @@ body {
     overflow-x: hidden;
 }
 
+.mainContainer{
+    width: 100%;
+    height: auto;
+}
+
 body {
     height: 100%;
     overflow: hidden;
@@ -114,7 +120,9 @@ body {
     text-size-adjust: 100%;
 }
 
-.container{
-    width: auto;
-    height: auto;
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
