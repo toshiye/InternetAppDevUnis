@@ -1,0 +1,70 @@
+.top{
+    box-shadow: 0 1px rgba(12, 13, 14, 0.15);
+    min-width: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5050;
+    background-color: #035392;
+    transition: box-shadow cubic-bezier(.165, .84,.44, 1) .25s;
+    height: 64px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, "Helvetica Neue", sans-serif;
+    border-top: blue;
+    margin: none;
+}
+
+.top._fixed{
+    position: fixed;
+    min-width: auto;
+    box-shadow: 0 1px rgba(12, 13, 14, 0.1),
+    0 1px 6px rgba(60,65, 70, 0.1);
+    margin: none;
+    float: left;
+}
+
+.most{    
+    width: auto;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #999;
+    border-right: 1px solid #999;
+    box-shadow: 0 1px 1px #cccccc;
+    border-radius: 5px;
+    color: gray;
+    cursor: pointer;
+}
+
+.fDiv{
+    float: left;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.sDiv{
+    float: left;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.breaking{
+    width: 50%;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #999;
+    border-right: 1px solid #999;
+    box-shadow: 0 1px 1px #cccccc;
+    border-radius: 5px;
+    color: gray;
+    text-align: center;
+    margin-bottom: 20px;
+}
